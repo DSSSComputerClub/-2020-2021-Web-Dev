@@ -1,0 +1,9 @@
+npm install create-react-app
+
+/* Go into your project directory using cd followed by the directory name 
+Example: cd Desktop
+*/
+
+npx create-react-app project-name
+
+/* Where project-name is whatever name you want your project to be (must be lowercase with no spaces) */

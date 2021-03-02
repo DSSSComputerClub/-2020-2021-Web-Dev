@@ -1,0 +1,14 @@
+* {
+  background-color: aqua;
+}
+
+#myButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.test {
+  text-align: center;
+}
