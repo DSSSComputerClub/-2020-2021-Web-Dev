@@ -1,10 +1,15 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
 
+// Importing my components
+import Navigation from "../components/navbar";
+import Footer from "../components/footer";
+
 const HomeApp = () => {
   return (
     <div>
       <section className="wrapper landing">
+        <Navigation />
         <Container>
           <div className="left">
             <h1>
@@ -22,6 +27,7 @@ const HomeApp = () => {
           </div>
         </Container>
       </section>
+      <Footer />
     </div>
   );
 };
