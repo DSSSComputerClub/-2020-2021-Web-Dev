@@ -8,13 +8,19 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link>Software</Nav.Link>
+          <Nav.Link
+            href="https://github.com/ShaleeQureshi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Software
+          </Nav.Link>
           <Nav.Link href="/resume" target="_blank" rel="noopener noreferrer">
             Resume
           </Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link>Contact</Nav.Link>
+          <Nav.Link href="mailto:shaleequreshi2019@gmail.com">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
